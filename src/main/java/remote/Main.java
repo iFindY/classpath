@@ -47,4 +47,9 @@ public class Main {
 // jar cfe lib/partial/PartApplication.jar de.arkadi.local.Main -C bin/classes/ de/arkadi/local/Main.class -C bin/classes/ de/arkadi/local/IPrint.class
 // java -cp bin/classes/:lib/partial/PartPrint.jar de.arkadi.local.Main
 // jar -cfm lib/manifest/MaApplication.jar src/main/resources/MANIFEST.MF -C bin/classes/ de/arkadi/local/IPrint.class -C bin/classes/ de/arkadi/local/Main.class
-
+// Manifest.txt is renamed by creating a jar into MANIFEST.MF
+// ./jboss-cli.sh -c
+//  deployment-info
+//  deploy /Users/arkadi/GIT/classPath/lib/Resource.war
+// undeploy Resource.war
+// jar cf lib/remote-manifest/Resource.war -C lib/remote-manifest/ Print.jar 
