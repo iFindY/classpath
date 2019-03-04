@@ -46,4 +46,5 @@ public class Main {
 // jar --create --file foo.jar --main-class com.foo.Main
 // jar cfe lib/partial/PartApplication.jar de.arkadi.local.Main -C bin/classes/ de/arkadi/local/Main.class -C bin/classes/ de/arkadi/local/IPrint.class
 // java -cp bin/classes/:lib/partial/PartPrint.jar de.arkadi.local.Main
+// jar -cfm lib/manifest/MaApplication.jar src/main/resources/MANIFEST.MF -C bin/classes/ de/arkadi/local/IPrint.class -C bin/classes/ de/arkadi/local/Main.class
 
