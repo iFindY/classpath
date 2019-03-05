@@ -53,3 +53,5 @@ public class Main {
 //  deploy /Users/arkadi/GIT/classPath/lib/Resource.war
 // undeploy Resource.war
 // jar cf lib/remote-manifest/Resource.war -C lib/remote-manifest/ Print.jar 
+// java -verbose:class -jar lib/local/LocalApplication.jar 
+
